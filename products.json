@@ -1,0 +1,44 @@
+[
+    {
+        "name": "iPhone 14 Pro",
+        "price": 1299,
+        "featured": true,
+        "rating": 4.8,
+        "company": "apple"
+    },
+    {
+        "name": "Galaxy S23 Ultra",
+        "price": 1199,
+        "featured": false,
+        "rating": 4.7,
+        "company": "samsung"
+    },
+    {
+        "name": "Dell XPS 13",
+        "price": 999,
+        "featured": true,
+        "rating": 4.9,
+        "company": "dell"
+    },
+    {
+        "name": "HP Pavilion 15",
+        "price": 749,
+        "featured": false,
+        "rating": 4.5,
+        "company": "hp"
+    },
+    {
+        "name": "MI 11X Pro",
+        "price": 499,
+        "featured": true,
+        "rating": 4.6,
+        "company": "MI"
+    },
+    {
+        "name": "MacBook Air M2",
+        "price": 1299,
+        "featured": false,
+        "rating": 4.8,
+        "company": "apple"
+    }
+]
