@@ -24,7 +24,7 @@ const getAllProducts = async (req, res) => {
             apiData = apiData.sort(sortFix);
         }
 
-        console.log("Query Object:", queryObject);
+        //console.log("Query Object:", queryObject);
 
         // Execute query
         const myData = await apiData;
