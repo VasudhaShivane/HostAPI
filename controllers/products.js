@@ -14,23 +14,24 @@ const getAllProducts = async (req, res) => {
         queryObject.name = { $regex: name, $options: "i" };
     }
 
-    // Initialize query
-    let apiData = Product.find(queryObject);
-
-    // Sort results if `sort` parameter is provided
-    if (sort) {
-        let sortFix = sort.replace(",", " ");
-        apiData = apiData.sort(sortFix);
-    }
-
-    console.log("Query Object:", queryObject);
-
     try {
-        const myData = await apiData; // Execute the query
-        res.status(200).json({ myData });
+        // Initialize query
+        let apiData = Product.find(queryObject);
+
+        // Sort results if `sort` parameter is provided
+        if (sort) {
+            const sortFix = sort.replace(",", " ");
+            apiData = apiData.sort(sortFix);
+        }
+
+        console.log("Query Object:", queryObject);
+
+        // Execute query
+        const myData = await apiData;
+        res.status(200).json({ success: true, data: myData });
     } catch (error) {
         console.error("Error fetching products:", error);
-        res.status(500).json({ error: "Internal Server Error" });
+        res.status(500).json({ success: false, error: "Internal Server Error" });
     }
 };
 
@@ -38,10 +39,10 @@ const getAllProductsTesting = async (req, res) => {
     try {
         // Sort by "name" by default
         const myData = await Product.find(req.query).sort("name");
-        res.status(200).json({ myData });
+        res.status(200).json({ success: true, data: myData });
     } catch (error) {
         console.error("Error fetching products:", error);
-        res.status(500).json({ error: "Internal Server Error" });
+        res.status(500).json({ success: false, error: "Internal Server Error" });
     }
 };
 

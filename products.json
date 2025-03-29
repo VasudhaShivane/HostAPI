@@ -4,41 +4,183 @@
         "price": 1299,
         "featured": true,
         "rating": 4.8,
-        "company": "apple"
+        "company": "apple",
+        "category": "smartphone"
     },
     {
         "name": "Galaxy S23 Ultra",
         "price": 1199,
         "featured": false,
         "rating": 4.7,
-        "company": "samsung"
+        "company": "samsung",
+        "category": "smartphone"
     },
     {
         "name": "Dell XPS 13",
         "price": 999,
         "featured": true,
         "rating": 4.9,
-        "company": "dell"
+        "company": "dell",
+        "category": "laptop"
     },
     {
         "name": "HP Pavilion 15",
         "price": 749,
         "featured": false,
         "rating": 4.5,
-        "company": "hp"
+        "company": "hp",
+        "category": "laptop"
     },
     {
         "name": "MI 11X Pro",
         "price": 499,
         "featured": true,
         "rating": 4.6,
-        "company": "MI"
+        "company": "MI",
+        "category": "smartphone"
     },
     {
         "name": "MacBook Air M2",
         "price": 1299,
         "featured": false,
         "rating": 4.8,
-        "company": "apple"
+        "company": "apple",
+        "category": "laptop"
+    },
+    {
+        "name": "OnePlus 11",
+        "price": 799,
+        "featured": true,
+        "rating": 4.7,
+        "company": "oneplus",
+        "category": "smartphone"
+    },
+    {
+        "name": "Google Pixel 7 Pro",
+        "price": 899,
+        "featured": false,
+        "rating": 4.7,
+        "company": "google",
+        "category": "smartphone"
+    },
+    {
+        "name": "Asus ROG Zephyrus G14",
+        "price": 1599,
+        "featured": true,
+        "rating": 4.9,
+        "company": "asus",
+        "category": "laptop"
+    },
+    {
+        "name": "Lenovo Legion 5",
+        "price": 1099,
+        "featured": false,
+        "rating": 4.6,
+        "company": "lenovo",
+        "category": "laptop"
+    },
+    {
+        "name": "Samsung Galaxy Tab S8",
+        "price": 699,
+        "featured": true,
+        "rating": 4.6,
+        "company": "samsung",
+        "category": "tablet"
+    },
+    {
+        "name": "Apple iPad Pro M2",
+        "price": 1099,
+        "featured": false,
+        "rating": 4.9,
+        "company": "apple",
+        "category": "tablet"
+    },
+    {
+        "name": "MSI Katana GF66",
+        "price": 899,
+        "featured": true,
+        "rating": 4.5,
+        "company": "msi",
+        "category": "laptop"
+    },
+    {
+        "name": "Razer Blade 15",
+        "price": 2499,
+        "featured": false,
+        "rating": 4.8,
+        "company": "razer",
+        "category": "laptop"
+    },
+    {
+        "name": "Apple Watch Series 8",
+        "price": 499,
+        "featured": true,
+        "rating": 4.8,
+        "company": "apple",
+        "category": "smartwatch"
+    },
+    {
+        "name": "Samsung Galaxy Watch 5",
+        "price": 349,
+        "featured": false,
+        "rating": 4.7,
+        "company": "samsung",
+        "category": "smartwatch"
+    },
+    {
+        "name": "Xiaomi Pad 5",
+        "price": 429,
+        "featured": true,
+        "rating": 4.6,
+        "company": "xiaomi",
+        "category": "tablet"
+    },
+    {
+        "name": "Lenovo Tab P11 Pro",
+        "price": 599,
+        "featured": false,
+        "rating": 4.5,
+        "company": "lenovo",
+        "category": "tablet"
+    },
+    {
+        "name": "Huawei MatePad Pro",
+        "price": 649,
+        "featured": true,
+        "rating": 4.7,
+        "company": "huawei",
+        "category": "tablet"
+    },
+    {
+        "name": "Garmin Fenix 7",
+        "price": 699,
+        "featured": false,
+        "rating": 4.8,
+        "company": "garmin",
+        "category": "smartwatch"
+    },
+    {
+        "name": "Google Pixel Watch",
+        "price": 349,
+        "featured": true,
+        "rating": 4.5,
+        "company": "google",
+        "category": "smartwatch"
+    },
+    {
+        "name": "Asus ZenBook 14",
+        "price": 1199,
+        "featured": false,
+        "rating": 4.7,
+        "company": "asus",
+        "category": "laptop"
+    },
+    {
+        "name": "Microsoft Surface Laptop 5",
+        "price": 1399,
+        "featured": true,
+        "rating": 4.7,
+        "company": "microsoft",
+        "category": "laptop"
     }
 ]
